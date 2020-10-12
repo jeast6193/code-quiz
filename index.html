@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+    crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <div class="row"> 
+    <div class="col-sm-6 text-left">
+        view high score: <span id="viewHighScore"></span>
+    </div>
+    <div class="col-sm-6 text-right">
+        time: <span id="time"></span>
+    </div>
+    </div>
+    <div class="container">
+        <div class="start-div">
+            <h1>Welcome to the Legally Blonde Quiz</h1>
+            <button id="startbtn">Start</button>
+        </div>
+       
+        <div class="question-div hide">
+              <h3 id="question"></h3>
+                <ol id="answeredChoices">
+
+                </ol>
+        </div>
+
+        <div class="inputInitials-div hide">
+          Enter initial: <input type="text" id="initials">
+          <button id="btn">Save Initial</button>
+        </div>
+        
+        <div class="viewHighScore-div hide">
+             <h3 id="displayscore"></h3>
+             <button id="goback">go back</button>
+             <button id="clear">clear</button>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+   
+</body>
+</html>
